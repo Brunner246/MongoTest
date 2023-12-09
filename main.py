@@ -21,10 +21,6 @@ def main():
         print(document)
 
 
-if __name__ == '__main__':
-    main()
-
-
 def create_sample_data() -> List[Dict]:
     return [
         {"_id": 1, "name": "John", "address": "Highway 37"},
@@ -40,5 +36,10 @@ def create_sample_data() -> List[Dict]:
         {"_id": 11, "name": "Ben", "address": "Park Lane 38"},
         {"_id": 12, "name": "William", "address": "Central st 954"},
         {"_id": 13, "name": "Chuck", "address": "Main Road 989"},
-        {"_id": 14, "name": "Viola", "address": "Sideway 1633"}
+        {"_id": 14, "name": "Viola", "address": "Sideway 1633"},
+        {"_id": 15, "name": "Hans", "address": "TestStreet 1633"},
     ]
+
+
+if __name__ == '__main__':
+    main()
